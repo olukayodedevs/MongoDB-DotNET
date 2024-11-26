@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k7irIOubz7r8LY72dcxa15tzO5+YYpm+ranootVl75ZM2SlyJxl6BtOniRlOv9nxcJ3NxMvG/GsPpjQPfwFyJg==",
+  "dgSpecHash": "qf4Y42DAAuE=",
   "success": true,
-  "projectFilePath": "/home/ubuntu/DotNetMongoCRUDApp/DotNetMongoCRUDApp.csproj",
+  "projectFilePath": "/home/ubuntu/MongoDB-DotNET/DotNetMongoCRUDApp.csproj",
   "expectedPackageFiles": [
     "/home/ubuntu/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/home/ubuntu/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",

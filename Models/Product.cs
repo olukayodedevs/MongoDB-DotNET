@@ -16,6 +16,10 @@ namespace DotNetMongoCRUDApp.Models
         [BsonElement("Price")]
         public decimal Price { get; set; } = 0.0M;
 
+
+        [BsonElement("Location")]
+        public string Location { get; set; } = string.Empty;
+
         [BsonElement("Category")]
         public string Category { get; set; } = string.Empty;
     }

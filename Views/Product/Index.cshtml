@@ -16,7 +16,8 @@
             <th>@Html.DisplayNameFor(model => model.Name)</th>
             <th>@Html.DisplayNameFor(model => model.Price)</th>
             <th>@Html.DisplayNameFor(model => model.Category)</th>
-            <th></th>
+            <th>@Html.DisplayNameFor(model => model.Location)</th>
+	    <th></th>
         </tr>
     </thead>
     <tbody>
@@ -25,7 +26,8 @@
             <td>@Html.DisplayFor(modelItem => item.Name)</td>
             <td>@item.Price.ToString("C", System.Globalization.CultureInfo.CurrentCulture)</td>
             <td>@Html.DisplayFor(modelItem => item.Category)</td>
-            <td>
+            <td>@Html.DisplayFor(modelItem => item.Location)</td>
+	    <td>
                 <a href="/Product/Edit/@item.Id" class="btn btn-warning">Edit</a> |
                 <a href="/Product/Delete/@item.Id" class="btn btn-danger">Delete</a> |
                 <a href="/Product/Details/@item.Id" class="btn btn-info">Details</a>

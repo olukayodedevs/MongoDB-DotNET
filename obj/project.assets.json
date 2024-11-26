@@ -1468,11 +1468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ubuntu/DotNetMongoCRUDApp/DotNetMongoCRUDApp.csproj",
+      "projectUniqueName": "/home/ubuntu/MongoDB-DotNET/DotNetMongoCRUDApp.csproj",
       "projectName": "DotNetMongoCRUDApp",
-      "projectPath": "/home/ubuntu/DotNetMongoCRUDApp/DotNetMongoCRUDApp.csproj",
+      "projectPath": "/home/ubuntu/MongoDB-DotNET/DotNetMongoCRUDApp.csproj",
       "packagesPath": "/home/ubuntu/.nuget/packages/",
-      "outputPath": "/home/ubuntu/DotNetMongoCRUDApp/obj/",
+      "outputPath": "/home/ubuntu/MongoDB-DotNET/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ubuntu/.nuget/NuGet/NuGet.Config"
@@ -1493,6 +1493,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1539,7 +1544,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
