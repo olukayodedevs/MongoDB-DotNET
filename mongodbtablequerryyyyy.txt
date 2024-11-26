@@ -1,0 +1,13 @@
+db.Products.insertMany([
+  { Name: "Smartwatch", Price: "150", Category: "Electronics", Location: "Toronto" },
+  { Name: "Wireless Headphones", Price: "100", Category: "Accessories", Location: "Lagos" },
+  { Name: "Desk Lamp", Price: "30", Category: "Home Decor", Location: "Abuja" },
+  { Name: "Blender", Price: "200", Category: "Home Appliances", Location: "Nairobi" },
+  { Name: "Office Chair", Price: "300", Category: "Furniture", Location: "Kitchener" },
+  { Name: "Yoga Mat", Price: "20", Category: "Fitness", Location: "Miami" },
+  { Name: "BBQ Grill", Price: "250", Category: "Outdoor", Location: "Akure" },
+  { Name: "Basketball", Price: "40", Category: "Sports", Location: "Singapore" },
+  { Name: "Gaming Console", Price: "500", Category: "Electronics", Location: "Toronto" },
+  { Name: "Coffee Maker", Price: "150", Category: "Home Appliances", Location: "Lagos" }
+]);
+
